@@ -288,9 +288,7 @@ export default class Watson extends React.Component {
   }
 
   backToResponseScreen() {
-    //this.state.responseOutput = "";
-    //this.state.sampleQuestion = "";
-   // this.state.score = "";
+    
     this.setState({
       isResponse: false
     })

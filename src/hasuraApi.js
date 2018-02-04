@@ -106,12 +106,7 @@ export async function sendEmail(sampleQuestion, username, email, score, user_id)
         "score": score
     }
 
-    //checks the input is url or text and set the body type accordingly.
-   // body.feedbacktext = sampleQuestion;
-   // body.emailid = email;
-   // body.score = score;
-   // body.username = username;
-   // body.user_id = user_id;
+   
     console.log("feedbacktext ---------------------" + sampleQuestion);
     console.log("emailid ---------------------" + email);
     console.log("score ---------------------" + score);
