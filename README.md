@@ -24,23 +24,6 @@ Handle any obvious errors.
 * If invalid sample question.
 
 
-## Clone Repository and Running on device/emulator
-
-*  git clone 
-*  cd Watson
-*  npm install (to install project dependencies)
-*  open expoXde,click on open existing project and search Watson
-*  start React Native packager and open on Device connected
-
-
-## Expo link : 
-* To run expo link download expo on device. click above link and send expo link to your device or scan using expo app.
-
-## Apk link : 
-* Download apk on device.  Open the link on device.
-
-## Github link : 
-
 ## Part 2 
 
 ## Watson Feedback Classifier
@@ -63,6 +46,24 @@ Handle any obvious errors.
 * If feedback field is empty
 * If there exists a network error
 
+
+
+## Clone Repository and Running on device/emulator
+
+*  git clone https://github.com/priyarg/ProjectWatson.git
+*  cd ProjectWatson
+*  npm install (to install project dependencies)
+*  open expoXde,click on open existing project and search Watson
+*  start React Native packager and open on Device connected
+
+
+## Expo link : https://exp.host/@priyarg/watson 
+* To run expo link download expo on device. click above link and send expo link to your device or scan using expo app.
+
+## Apk link : 
+* Download apk on device.  Open the link on device.
+
+## Github link : https://github.com/priyarg/ProjectWatson
 
 
 
