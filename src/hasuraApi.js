@@ -99,7 +99,7 @@ export async function sendEmail(sampleQuestion, username, email, score, user_id)
     };
 
     let body = {
-        "username": sampleQuestion,
+        "username": username,
         "user_id": user_id,
         "emailid": email,
         "feedbacktext": sampleQuestion,
