@@ -255,7 +255,13 @@ export default class Watson extends React.Component {
                     isLoading: false
                   });
                   Alert.alert("Network Error", "Check your internet connection")
-                } else {
+                } else if(respemail.status === 502){
+                  this.setState({
+                    isLoading: false
+                  });
+                  Alert.alert("Network Error", "Bad Gateway")
+                }                
+                else {
                   this.setState({
                     isLoading: false
                   });
